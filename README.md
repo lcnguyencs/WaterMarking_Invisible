@@ -33,3 +33,16 @@ Watermarking is a process of embedding a mark or text into an image to protect i
    ```sh
    git clone https://github.com/yourusername/image-watermarking.git
    cd image-watermarking
+   
+2. **Install the required library:**
+   ```sh
+   pip install Pillow
+
+## Usage
+Prepare your images:
+Place your input image in the same directory as the script and name it input_image.jpg or update the script with the correct path.
+Font file:
+Ensure you have a font file (e.g., arial.ttf) in the same directory or update the path in the script.
+Run the script:
+```sh
+python watermark.py
