@@ -1,13 +1,11 @@
-# WaterMarking_Invisible
-
-# Image Watermarking with Python
+# Invisible WaterMarking 
 
 This repository contains a simple Python script to add a visible watermark to an image using the `Pillow` library.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
+- [Introduction](#Introduction)
+- [Features](#Features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
