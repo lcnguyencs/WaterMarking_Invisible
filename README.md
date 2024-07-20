@@ -1,6 +1,6 @@
 # Invisible WaterMarking 
 
-This repository contains a simple Python script to add a visible watermark to an image using the `Pillow` library.
+This repository contains a simple Python script to add an invisible watermark to an image using the `Pillow` library.
 
 ## Table of Contents
 
@@ -13,11 +13,11 @@ This repository contains a simple Python script to add a visible watermark to an
 
 ## Introduction
 
-Watermarking is a process of embedding a mark or text into an image to protect it from unauthorized use. This script demonstrates how to add a visible watermark to an image using Python.
+Watermarking is a process of embedding a hidden mark or text into an image to protect it from unauthorized use. This script demonstrates how to add an invisible watermark to an image using Python.
 
 ## Features
 
-- Add a visible watermark to any image.
+- Add an invisible watermark to any image.
 - Customize the watermark text.
 - Adjust the position and style of the watermark.
 
@@ -47,8 +47,8 @@ Watermarking is a process of embedding a mark or text into an image to protect i
 
 3. **Embed hidden text into the image:**
    - Use the `embed_text()` function in `embedded.py` to embed invisible text in an image.
-   - Example usage:
-
+   - Example usage with the text is Invisible Watermarking, font size 30 and the margin is 45 pixel:
+     
    ```sh
    embed_text('input_image.jpg', 'Invisible Watermarking', './Roboto-Italic.ttf', 30, 30, 'embedded_image.png')
 
