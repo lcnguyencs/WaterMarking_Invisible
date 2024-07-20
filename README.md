@@ -40,9 +40,9 @@ Watermarking is a process of embedding a mark or text into an image to protect i
 
 ## Usage
 Prepare your images:
-Place your input image in the same directory as the script and name it input_image.jpg or update the script with the correct path.
+Place your input image in the same directory as the script and name it `input_image.jpg` or update the script with the correct path.
 Font file:
-Ensure you have a font file (e.g., arial.ttf) in the same directory or update the path in the script.
+Ensure you have a font file (e.g., `arial.ttf`) in the same directory or update the path in the script.
 Run the script:
 ```sh
 python watermark.py
