@@ -9,7 +9,6 @@ This repository contains a simple Python script to add a visible watermark to an
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Demo](#demo)
 - [License](#license)
 
 ## Introduction
@@ -49,14 +48,19 @@ Watermarking is a process of embedding a mark or text into an image to protect i
 3. **Embed hidden text into the image:**
    - Use the `embed_text()` function in `embedded.py` to embed invisible text in an image.
    - Example usage:
+
    ```sh
    embed_text('input_image.jpg', 'Invisible Watermarking', './Roboto-Italic.ttf', 30, 30, 'embedded_image.png')
 
 4. **Run `embedded.py` to create an image with embedded text:**
+
       ```sh
       python watermark.py
 
 5. **Run `extract.py` to reveal the hidden text from the image:**
+
      ```sh
      python extract.py
 
+## License
+MIT License
