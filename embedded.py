@@ -41,4 +41,4 @@ def embed_text(image_path, text, font_path, font_size, margin, output_path):
     image.save(output_path)
 
 # Example usage
-embed_text('input_image.jpg', 'Invisible Watermarking', './Roboto-Italic.ttf', 30, 30, 'embedded_image.png')
+embed_text('input_image.jpg', 'Invisible Watermarking', './Roboto-Italic.ttf', 30, 45, 'embedded_image.png')
