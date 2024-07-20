@@ -48,9 +48,10 @@ Watermarking is a process of embedding a hidden mark or text into an image to pr
 3. **Embed hidden text into the image:**
    - Use the `embed_text()` function in `embedded.py` to embed invisible text in an image.
    - Example usage with the text is Invisible Watermarking, font size 30 and the margin is 45 pixel:
-     
+    <br><br>
    ```sh
    embed_text('input_image.jpg', 'Invisible Watermarking', './Roboto-Italic.ttf', 30, 30, 'embedded_image.png')
+   ``` 
 
 4. **Run `embedded.py` to create an image with embedded text:**
 
