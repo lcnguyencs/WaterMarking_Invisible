@@ -47,18 +47,16 @@ Watermarking is a process of embedding a mark or text into an image to protect i
    - Ensure you have a font file (e.g., `arial.ttf`) in the same directory or update the path in the script.
 
 3. **Embed hidden text into the image:**
-   - Use the `embed_text` function in `embedded.py` to embed invisible text in an image.
+   - Use the `embed_text()` function in `embedded.py` to embed invisible text in an image.
    - Example usage:
    ```sh
    embed_text('input_image.jpg', 'Invisible Watermarking', './Roboto-Italic.ttf', 30, 30, 'embedded_image.png')
-   
 
 4. **Run `embedded.py` to create an image with embedded text:**
-   ```sh
-   python watermark.py
+      ```sh
+      python watermark.py
 
-5. **Extract and reveal the hidden text from the image:**
-   - Use the extract.py script to reveal the hidden text from the image.
+5. **Run `extract.py` to reveal the hidden text from the image:**
      ```sh
      python extract.py
 
